@@ -1,0 +1,8 @@
+MainActivity - Prostě klasická main class kde dávám do chodu celou apku.
+
+event_collector - Je to aktivita, která se ti zobrazí při otevření aplikace jako první. Slouží jako souhrn všech aktivit kde v levém dolním rohu je tlačítko plus pro přidání nové aktivity.
+
+event_new_event - Aktivita, která se ti otevře po kliknutí na tlačítko plus v levém dolním rohu v hlavní aktivitě (event_collector). Jakmile se ti otevře, zobrazí se ti několik polí do kterých můžeš vepsat data dané akce. Název akce, kdy začne, kdy končí, kdo se jí bude účastnit a kolik stojí (postupem času se tam můžou přidat různé, jiné možnosti). 
+Jakmile jsi všechno vyplnil, tak stikneš tlačítko plus v levém dolním rohu a akce se objeví v hlavní aktivitě (event_collector) úplně nahoře.
+
+event_summary - Je to aktivita, která se ti otevře, když klikneš na jakoukoliv vytvořenou akci v aktivitě (event_collector) a zobrazí ti vlastně veškeré informace o dané aktivitě. Dále v ní můžeš danou aktivitu buď upravit (něco dopsat), nebo si můžeš zobrazit veškeré info o tom kdo ji vytvořil a kdy a jako poslední je tam tlačítko pro smazání akce.
